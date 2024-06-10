@@ -1,0 +1,80 @@
+.home-container {
+  font-family: 'Arial, sans-serif';
+}
+
+header {
+  background: linear-gradient(to right, #f77f00, #fcbf49);
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.app-links a img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}

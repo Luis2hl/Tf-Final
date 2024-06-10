@@ -1,0 +1,100 @@
+.plans-container {
+    font-family: 'Arial, sans-serif';
+  }
+  
+  header {
+    background: linear-gradient(to right, #f77f00, #fcbf49);
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .plans {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .plan-card {
+    background-color: #b0e0e6;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+  }
+  
+  .plan-card.premium {
+    background-color: #f4a460;
+  }
+  
+  .plan-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .plan-card p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .plan-image {
+    width: 200px;
+    height: auto;
+  }
+
+  .plans-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .plan {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
