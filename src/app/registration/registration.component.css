@@ -1,0 +1,7 @@
+::ng-deep .cdk-overlay-container {
+    z-index: 2000 !important; /* Asegúrate de que este valor sea mayor que el z-index del modal */
+  }
+
+  table {
+    width: 100%;
+  }

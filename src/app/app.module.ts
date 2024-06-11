@@ -14,6 +14,27 @@ import { CommunityComponent } from './components/community/community.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms'; 
+import {provideNativeDateAdapter} from '@angular/material/core';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {
+  MatDialog,
+  MAT_DIALOG_DATA,
+  MatDialogRef,
+  MatDialogTitle,
+  MatDialogContent,
+  MatDialogActions,
+  MatDialogClose,
+} from '@angular/material/dialog';
+import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -30,11 +51,28 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     AboutComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatSlideToggleModule,
+    MatButtonModule,
+    MatIconModule,
+    MatSelectModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatDialogTitle,
+    MatDialogContent,
+    MatDialogActions,
+    MatDialogClose,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideNativeDateAdapter(),
   ],
   bootstrap: [AppComponent]
 })
